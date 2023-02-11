@@ -4,7 +4,7 @@
 
 import openai
 
-openai.api_key = ""
+openai.api_key = ""     # Se obtiene de: https://platform.openai.com/ > Personal > View API keys > Create new secret key
 
 completion = openai.Completion.create(engine="text-davinci-003", 
                         prompt="¿Qué es ChatGPT?",
